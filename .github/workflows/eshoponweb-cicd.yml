@@ -6,11 +6,11 @@ on:
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-westeurope
+  RESOURCE-GROUP: rg-eshoponweb-eastus
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: efab7462-0f50-4a82-bf63-57c9ef780c70
-  WEBAPP-NAME: devops-webapp-westeurope-96446936
+  WEBAPP-NAME: devops-webapp-eastus-5548039
 
 
 jobs:
